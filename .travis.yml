@@ -6,9 +6,9 @@ language: node_js
 node_js:
   - 0.10
   - 0.12
-  - 1.8 
-  - 2.5
-  - 3.3
+#  - 1.8  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ .. 
+#  - 2.5  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ ..
+#  - 3.3  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ ..
   - 4.9
   - 5.12
   - 6.17
