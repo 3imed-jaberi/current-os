@@ -4,7 +4,9 @@
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
   "scripts": {
-    "test": "echo init test !"
+    "test-windows": "mocha -- test/windows.spec.js",
+    "test-osx": "mocha -- test/osx.spec.js",
+    "test-linux": "mocha -- test/linux.spec.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,10 @@
     "url": "https://github.com/3imed-jaberi"
   },
   "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "3.5.3"
+  },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/is-os/issues"
   },
