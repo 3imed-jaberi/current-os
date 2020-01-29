@@ -1,0 +1,34 @@
+{
+  "name": "is-os",
+  "version": "1.0.0.rc",
+  "description": "Check the type of current OS 🧐 ..",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/is-os.git"
+  },
+  "keywords": [
+    "os",
+    "isOs",
+    "is-os",
+    "isWindows",
+    "isMacOS",
+    "isOSX",
+    "isLunix",
+    "iojs",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Imed Jaberi",
+    "email": "imed_jebari@hotmail.fr",
+    "url": "https://github.com/3imed-jaberi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/is-os/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/is-os#readme"
+}
