@@ -1,6 +1,6 @@
 {
   "name": "is-os",
-  "version": "1.0.0.rc",
+  "version": "1.0.0",
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
   "scripts": {
