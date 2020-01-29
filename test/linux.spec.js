@@ -9,7 +9,7 @@ describe('Linux Test Cases 👻 ..', function () {
   });
 
   it('Failed with OSX ❌', function () {
-    assert.ok(!currentOS.isMacOS);
+    assert.ok(!currentOS.isOSX);
   });
 
   it('Success with Linux ✔️', function () {
