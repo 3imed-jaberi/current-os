@@ -37,6 +37,9 @@
     "istanbul": "^0.4.5",
     "mocha": "3.5.3"
   },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/current-os/issues"
   },
