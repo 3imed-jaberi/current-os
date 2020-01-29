@@ -1,5 +1,5 @@
 {
-  "name": "is-os",
+  "name": "current-os",
   "version": "1.0.0",
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3imed-jaberi/is-os.git"
+    "url": "git+https://github.com/3imed-jaberi/current-os.git"
   },
   "keywords": [
     "os",
     "isOs",
-    "is-os",
+    "current-os",
     "isWindows",
     "isMacOS",
     "isOSX",
@@ -37,7 +37,7 @@
     "mocha": "3.5.3"
   },
   "bugs": {
-    "url": "https://github.com/3imed-jaberi/is-os/issues"
+    "url": "https://github.com/3imed-jaberi/current-os/issues"
   },
-  "homepage": "https://github.com/3imed-jaberi/is-os#readme"
+  "homepage": "https://github.com/3imed-jaberi/current-os#readme"
 }
