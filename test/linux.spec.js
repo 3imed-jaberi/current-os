@@ -2,17 +2,17 @@ var assert = require('assert');
 var currentOS = require('..');
 
 
-describe('Linux Test Cases', function () {
+describe('Linux Test Cases 👻 ..', function () {
 
-  it('Failed with Windows', function () {
+  it('Failed with Windows ❌', function () {
     assert.ok(!currentOS.isWindows);
   });
 
-  it('Failed with MacOS', function () {
+  it('Failed with OSX ❌', function () {
     assert.ok(!currentOS.isMacOS);
   });
 
-  it('Success with Linux', function () {
+  it('Success with Linux ✔️', function () {
     assert.ok(currentOS.isLinux);
   });
 });
