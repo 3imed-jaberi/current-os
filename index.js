@@ -1,6 +1,6 @@
 var os = require('os');
 
-var currentOS = function() {
+module.exports = new function currentOS () {
 
   function Windows () {
     return os.type() === 'Windows_NT';
@@ -18,6 +18,3 @@ var currentOS = function() {
   this.isOSX = OSX();
   this.isLinux = Linux();
 };
-
-
-module.exports = new currentOS();
