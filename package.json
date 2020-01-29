@@ -4,7 +4,7 @@
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo init test !"
   },
   "repository": {
     "type": "git",
