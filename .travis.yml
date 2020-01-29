@@ -1,5 +1,30 @@
+os:
+  - windows
+  - linux
+  - osx
 language: node_js
 node_js:
-  - 8
-  - 10
-  - 12
+  - 0.10
+  - 0.12
+#  - 1.8  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ .. 
+#  - 2.5  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ ..
+#  - 3.3  # Travis CI can't use NVS correctly with windows : nvs remote add iojs https://iojs.org/dist/ ..
+  - 4.9
+  - 5.12
+  - 6.17
+  - 7.10
+  - 8.16
+  - 9.11
+  - 10.15
+  - 11.15
+  - 12.3
+  - 'lts/*'
+  - 'node'
+install:
+  - npm install
+script:
+  - if [ "$TRAVIS_OS_NAME" = "windows" ]; then npm run test-ci-windows ; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then npm run test-ci-osx ; fi
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then npm run test-ci-linux ; fi
+after_script: 
+  - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js

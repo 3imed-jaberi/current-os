@@ -6,7 +6,10 @@
   "scripts": {
     "test-windows": "mocha -- test/windows.spec.js",
     "test-osx": "mocha -- test/osx.spec.js",
-    "test-linux": "mocha -- test/linux.spec.js"
+    "test-linux": "mocha -- test/linux.spec.js",
+    "test-ci-windows": "istanbul cover node_modules/mocha/bin/_mocha -- test/windows.spec.js",
+    "test-ci-osx": "istanbul cover node_modules/mocha/bin/_mocha -- test/osx.spec.js",
+    "test-ci-linux": "istanbul cover node_modules/mocha/bin/_mocha -- test/linux.spec.js"
   },
   "repository": {
     "type": "git",
