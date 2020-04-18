@@ -1,24 +1,26 @@
 # Current-OS ✔️
 ---
 
-[![Build Status](https://travis-ci.org/3imed-jaberi/current-os.svg?branch=master)](https://travis-ci.org/3imed-jaberi/current-os) &nbsp;&nbsp; [![Coverage Status](https://coveralls.io/repos/github/3imed-jaberi/current-os/badge.svg?branch=master)](https://coveralls.io/github/3imed-jaberi/current-os?branch=master)
+[![Build Status][travis-badge]][travis-url] &nbsp;&nbsp;
+[![Coverage Status][coverage-badge]][coverage-url] &nbsp;&nbsp;
+
+[travis-url]: https://travis-ci.org/3imed-jaberi/current-os
+[travis-badge]: https://travis-ci.org/3imed-jaberi/current-os.svg?branch=master
+[coverage-url]: https://coveralls.io/github/3imed-jaberi/current-os?branch=master
+[coverage-badge]: https://coveralls.io/repos/github/3imed-jaberi/current-os/badge.svg?branch=master
+
 
 ### Check the type of current OS 🧐 ..
-
 
 ## Installation 
 ---
 
-- NPM :
 ```bash
+# npm ..
 $ npm install current-os
-```
-
-- YARN :
-```bash
+# yarn .. 
 $ yarn add current-os
 ```
-
 
 ## Usage 
 ---
