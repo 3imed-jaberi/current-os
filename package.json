@@ -1,8 +1,12 @@
 {
   "name": "current-os",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test-windows": "mocha -- test/windows.spec.js",
     "test-osx": "mocha -- test/osx.spec.js",
