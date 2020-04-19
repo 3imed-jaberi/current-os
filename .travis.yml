@@ -25,4 +25,5 @@ script:
   - if [ "$TRAVIS_OS_NAME" = "osx" ]; then npm run test-ci-osx ; fi
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then npm run test-ci-linux ; fi
 after_script: 
+  - npm i coveralls
   - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
