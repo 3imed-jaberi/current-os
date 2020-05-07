@@ -1,6 +1,6 @@
 # Current-OS ✔️
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ---
 
@@ -65,6 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://3imed-jaberi.com"><img src="https://avatars2.githubusercontent.com/u/43971542?v=4" width="100px;" alt=""/><br /><sub><b>imed jaberi</b></sub></a><br /><a href="https://github.com/3imed-jaberi/current-os/commits?author=3imed-jaberi" title="Documentation">📖</a> <a href="https://github.com/3imed-jaberi/current-os/commits?author=3imed-jaberi" title="Code">💻</a> <a href="#infra-3imed-jaberi" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-3imed-jaberi" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://bluelovers.net"><img src="https://avatars0.githubusercontent.com/u/167966?v=4" width="100px;" alt=""/><br /><sub><b>bluelovers</b></sub></a><br /><a href="https://github.com/3imed-jaberi/current-os/commits?author=bluelovers" title="Code">💻</a></td>
   </tr>
 </table>
 
