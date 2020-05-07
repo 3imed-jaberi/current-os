@@ -1,11 +1,9 @@
 # Current-OS ✔️
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ---
 
 [![Build Status][travis-badge]][travis-url] &nbsp;&nbsp;
 [![Coverage Status][coverage-badge]][coverage-url] &nbsp;&nbsp;
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
 [travis-url]: https://travis-ci.org/3imed-jaberi/current-os
 [travis-badge]: https://travis-ci.org/3imed-jaberi/current-os.svg?branch=master
@@ -51,10 +49,6 @@ console.log(currentOS.isLinux); // ==> true
 ```
 
 
-#### License
----
-
-[MIT](LICENSE)
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -74,3 +68,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+#### License
+---
+
+[MIT](LICENSE)
