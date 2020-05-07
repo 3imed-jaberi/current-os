@@ -1,4 +1,7 @@
 # Current-OS ✔️
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ---
 
 [![Build Status][travis-badge]][travis-url] &nbsp;&nbsp;
@@ -52,3 +55,21 @@ console.log(currentOS.isLinux); // ==> true
 ---
 
 [MIT](LICENSE)
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://3imed-jaberi.com"><img src="https://avatars2.githubusercontent.com/u/43971542?v=4" width="100px;" alt=""/><br /><sub><b>imed jaberi</b></sub></a><br /><a href="https://github.com/3imed-jaberi/current-os/commits?author=3imed-jaberi" title="Documentation">📖</a> <a href="https://github.com/3imed-jaberi/current-os/commits?author=3imed-jaberi" title="Code">💻</a> <a href="#infra-3imed-jaberi" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-3imed-jaberi" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
