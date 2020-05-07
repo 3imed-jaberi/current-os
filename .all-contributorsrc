@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "3imed-jaberi",
+      "name": "imed jaberi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43971542?v=4",
+      "profile": "https://3imed-jaberi.com",
+      "contributions": [
+        "doc",
+        "code",
+        "infra",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "current-os",
+  "projectOwner": "3imed-jaberi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
