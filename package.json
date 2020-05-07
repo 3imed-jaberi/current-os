@@ -1,8 +1,9 @@
 {
   "name": "current-os",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Check the type of current OS 🧐 ..",
   "main": "index.js",
+  "typings": "index.d.ts",
   "files": [
     "index.js",
     "README.md"
@@ -36,6 +37,13 @@
     "email": "imed_jebari@hotmail.fr",
     "url": "https://github.com/3imed-jaberi"
   },
+  "contributors": [
+    {
+      "name": "bluelovers",
+      "email": "codelovers@users.sourceforge.net",
+      "url": "http://bluelovers.net"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "istanbul": "^0.4.5",
